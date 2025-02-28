@@ -1,0 +1,23 @@
+[1.567s] Invoking command in '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system': PYTHONPATH=/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/prefix_override:/home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/build --no-deps symlink_data
+[1.826s] running develop
+[1.826s] /home/jching/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.826s] !!
+[1.827s] 
+[1.827s]         ********************************************************************************
+[1.827s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.827s]         Instead, use pypa/build, pypa/installer or other
+[1.827s]         standards-based tools.
+[1.827s] 
+[1.827s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.827s]         ********************************************************************************
+[1.827s] 
+[1.827s] !!
+[1.827s]   easy_install.initialize_options(self)
+[2.030s] running egg_info
+[2.043s] writing multi_drone_system.egg-info/PKG-INFO
+[2.043s] writing dependency_links to multi_drone_system.egg-info/dependency_links.txt
+[2.043s] writing entry points to multi_drone_system.egg-info/entry_points.txt
+[2.044s] writing requirements to multi_drone_system.egg-info/requires.txt
+[2.044s] writing top-level names to multi_drone_system.egg-info/top_level.txt
+[2.062s] error: package directory 'multi_drone_system' does not exist
+[2.102s] Invoked command in '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system' returned '1': PYTHONPATH=/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/prefix_override:/home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/build --no-deps symlink_data

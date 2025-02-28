@@ -1,0 +1,35 @@
+[1.446s] Invoking command in '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system': PYTHONPATH=/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/prefix_override:/home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/build --no-deps symlink_data
+[1.712s] running develop
+[1.713s] /home/jching/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.713s] !!
+[1.713s] 
+[1.713s]         ********************************************************************************
+[1.713s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.713s]         Instead, use pypa/build, pypa/installer or other
+[1.714s]         standards-based tools.
+[1.714s] 
+[1.714s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.714s]         ********************************************************************************
+[1.714s] 
+[1.714s] !!
+[1.714s]   easy_install.initialize_options(self)
+[1.900s] running egg_info
+[1.914s] writing multi_drone_system.egg-info/PKG-INFO
+[1.914s] writing dependency_links to multi_drone_system.egg-info/dependency_links.txt
+[1.916s] writing entry points to multi_drone_system.egg-info/entry_points.txt
+[1.916s] writing requirements to multi_drone_system.egg-info/requires.txt
+[1.916s] writing top-level names to multi_drone_system.egg-info/top_level.txt
+[1.944s] reading manifest file 'multi_drone_system.egg-info/SOURCES.txt'
+[1.945s] writing manifest file 'multi_drone_system.egg-info/SOURCES.txt'
+[1.990s] running build_ext
+[1.990s] Creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages/multi-drone-system.egg-link (link to .)
+[1.991s] Installing drone_node script to /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/multi_drone_system
+[1.992s] 
+[1.992s] Installed /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system
+[1.993s] running symlink_data
+[1.994s] creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/worlds
+[1.995s] symbolically linking /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/worlds/drone_world.world -> /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/worlds
+[1.995s] creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/models
+[1.996s] creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/models/drone
+[1.997s] symbolically linking /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/models/drone/model.config -> /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/models/drone
+[2.022s] Invoked command in '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system' returned '0': PYTHONPATH=/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/prefix_override:/home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/build --no-deps symlink_data

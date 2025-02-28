@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: multi-drone-system
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: jching
+Maintainer-email: jching2@yahoo.com
+License: TODO: License declaration
+Requires-Dist: setuptools

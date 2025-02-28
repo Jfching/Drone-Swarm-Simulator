@@ -1,0 +1,7 @@
+running develop
+running egg_info
+writing multi_drone_system.egg-info/PKG-INFO
+writing dependency_links to multi_drone_system.egg-info/dependency_links.txt
+writing entry points to multi_drone_system.egg-info/entry_points.txt
+writing requirements to multi_drone_system.egg-info/requires.txt
+writing top-level names to multi_drone_system.egg-info/top_level.txt

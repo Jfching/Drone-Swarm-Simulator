@@ -1,0 +1,2 @@
+[console_scripts]
+drone_node = multi_drone_system.drone_node:main
