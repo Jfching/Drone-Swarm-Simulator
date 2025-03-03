@@ -1,0 +1,28 @@
+running develop
+/home/jching/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing multi_drone_system.egg-info/PKG-INFO
+writing dependency_links to multi_drone_system.egg-info/dependency_links.txt
+writing entry points to multi_drone_system.egg-info/entry_points.txt
+writing requirements to multi_drone_system.egg-info/requires.txt
+writing top-level names to multi_drone_system.egg-info/top_level.txt
+reading manifest file 'multi_drone_system.egg-info/SOURCES.txt'
+writing manifest file 'multi_drone_system.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages/multi-drone-system.egg-link (link to .)
+Installing tf_visualizer script to /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/multi_drone_system
+
+Installed /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system
+running symlink_data

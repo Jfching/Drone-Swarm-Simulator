@@ -7,6 +7,7 @@ Panels:
         - /Global Options1
         - /Status1
         - /MarkerArray1
+        - /MarkerArray1/Topic1
         - /TF1
       Splitter Ratio: 0.5
     Tree Height: 555
@@ -54,6 +55,7 @@ Visualization Manager:
       Name: MarkerArray
       Namespaces:
         drones: true
+        rotors: true
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -143,7 +145,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 10
+      Distance: 12.084161758422852
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -179,5 +181,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 28
-  Y: 28
+  X: 347
+  Y: 1

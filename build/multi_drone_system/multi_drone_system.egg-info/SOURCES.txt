@@ -2,8 +2,10 @@ package.xml
 setup.cfg
 setup.py
 launch/simulation.launch.py
+launch/tf_viz.launch.py
 models/drone/model.config
 multi_drone_system/drone_node.py
+multi_drone_system/tf_visualizer.py
 multi_drone_system.egg-info/PKG-INFO
 multi_drone_system.egg-info/SOURCES.txt
 multi_drone_system.egg-info/dependency_links.txt
@@ -12,4 +14,6 @@ multi_drone_system.egg-info/requires.txt
 multi_drone_system.egg-info/top_level.txt
 multi_drone_system.egg-info/zip-safe
 resource/multi_drone_system
+rviz/drone.rviz
+rviz/multi_drone.rviz
 worlds/drone_world.world

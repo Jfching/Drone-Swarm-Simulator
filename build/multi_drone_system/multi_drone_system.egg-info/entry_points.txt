@@ -1,2 +1,2 @@
 [console_scripts]
-drone_node = multi_drone_system.drone_node:main
+tf_visualizer = multi_drone_system.tf_visualizer:main

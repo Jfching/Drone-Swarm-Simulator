@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing multi_drone_system.egg-info/PKG-INFO
+writing dependency_links to multi_drone_system.egg-info/dependency_links.txt
+writing entry points to multi_drone_system.egg-info/entry_points.txt
+writing requirements to multi_drone_system.egg-info/requires.txt
+writing top-level names to multi_drone_system.egg-info/top_level.txt
+reading manifest file 'multi_drone_system.egg-info/SOURCES.txt'
+writing manifest file 'multi_drone_system.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages/multi-drone-system.egg-link (link to .)
+Installing tf_visualizer script to /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/multi_drone_system
+
+Installed /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system
+running symlink_data
+symbolically linking /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/launch/tf_viz.launch.py -> /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/launch
+creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/rviz
+symbolically linking /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/rviz/drone.rviz -> /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/rviz
+symbolically linking /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/rviz/multi_drone.rviz -> /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/rviz

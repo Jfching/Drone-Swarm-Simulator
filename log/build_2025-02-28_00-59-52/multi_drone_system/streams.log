@@ -1,0 +1,30 @@
+[1.453s] Invoking command in '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system': PYTHONPATH=/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/prefix_override:/home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/build --no-deps symlink_data
+[1.710s] running develop
+[1.711s] /home/jching/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.711s] !!
+[1.711s] 
+[1.711s]         ********************************************************************************
+[1.711s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.711s]         Instead, use pypa/build, pypa/installer or other
+[1.711s]         standards-based tools.
+[1.712s] 
+[1.712s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.712s]         ********************************************************************************
+[1.712s] 
+[1.712s] !!
+[1.712s]   easy_install.initialize_options(self)
+[1.895s] running egg_info
+[1.910s] writing multi_drone_system.egg-info/PKG-INFO
+[1.910s] writing dependency_links to multi_drone_system.egg-info/dependency_links.txt
+[1.910s] writing entry points to multi_drone_system.egg-info/entry_points.txt
+[1.910s] writing requirements to multi_drone_system.egg-info/requires.txt
+[1.911s] writing top-level names to multi_drone_system.egg-info/top_level.txt
+[1.939s] reading manifest file 'multi_drone_system.egg-info/SOURCES.txt'
+[1.942s] writing manifest file 'multi_drone_system.egg-info/SOURCES.txt'
+[1.987s] running build_ext
+[1.987s] Creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages/multi-drone-system.egg-link (link to .)
+[1.988s] Installing tf_visualizer script to /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/multi_drone_system
+[1.990s] 
+[1.990s] Installed /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system
+[1.990s] running symlink_data
+[2.021s] Invoked command in '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system' returned '0': PYTHONPATH=/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/prefix_override:/home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/build --no-deps symlink_data

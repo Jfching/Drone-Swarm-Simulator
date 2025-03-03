@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (multi_drone_system) JobQueued: {'identifier': 'multi_drone_system', 'dependencies': OrderedDict()}
+[0.000228] (multi_drone_system) JobStarted: {'identifier': 'multi_drone_system'}
+[0.099090] (-) TimerEvent: {}
+[0.199375] (-) TimerEvent: {}
+[0.299650] (-) TimerEvent: {}
+[0.400049] (-) TimerEvent: {}
+[0.500496] (-) TimerEvent: {}
+[0.600827] (-) TimerEvent: {}
+[0.701263] (-) TimerEvent: {}
+[0.801553] (-) TimerEvent: {}
+[0.901939] (-) TimerEvent: {}
+[1.002317] (-) TimerEvent: {}
+[1.102613] (-) TimerEvent: {}
+[1.202907] (-) TimerEvent: {}
+[1.303262] (-) TimerEvent: {}
+[1.403606] (-) TimerEvent: {}
+[1.504021] (-) TimerEvent: {}
+[1.604313] (-) TimerEvent: {}
+[1.704608] (-) TimerEvent: {}
+[1.747562] (multi_drone_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jching', 'GIT_ASKPASS': '/home/jching/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jching', 'OLDPWD': '/home/jching/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7de34195-ead7-4e6f-9c4a-aefa46145655.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jching/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jching/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jching/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jching', 'NAME': 'somePC', 'WSL_INTEROP': '/run/WSL/458_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/jching/ros2_ws/src/multi_drone_system/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jching/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/home/jching/.local/bin:/opt/ros/humble/bin:/home/jching/.local/bin:/home/jching/go/bin:/home/jching/.local/opt/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/e/WINDOWS11_TOOLS/Universal Extractor:/mnt/e/WINDOWS11_TOOLS/Universal Extractor/bin:/mnt/e/WINDOWS11_TOOLS/Liquid Technologies/Liquid Studio/XmlDataBinder20/Redist20/cpp/win32/bin:/mnt/e/WINDOWS11_TOOLS/Liquid Technologies/Liquid Studio/XmlDataBinder20/Redist20/cpp/win64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/e/go/bin:/mnt/c/Users/jchin/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/jchin/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/jchin/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files/Graphviz/bin/dot.exe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Users/jchin/go/bin:/snap/bin:/home/jching/go/bin:/home/jching/go/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9a866be77e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jching/ros2_ws/install/multi_drone_system:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ENVMAN_LOAD': 'loaded', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system', 'GAZEBO_PLUGIN_PATH': ':/home/jching/ros2_ws/src/multi_drone_system/plugins', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/prefix_override:/home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages:/home/jching/ros2_ws/build/multi_drone_system:/home/jching/ros2_ws/install/multi_drone_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.804737] (-) TimerEvent: {}
+[1.905031] (-) TimerEvent: {}
+[2.005321] (-) TimerEvent: {}
+[2.016104] (multi_drone_system) StdoutLine: {'line': b'running develop\n'}
+[2.016974] (multi_drone_system) StderrLine: {'line': b'/home/jching/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.017099] (multi_drone_system) StderrLine: {'line': b'!!\n'}
+[2.017155] (multi_drone_system) StderrLine: {'line': b'\n'}
+[2.017203] (multi_drone_system) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.017250] (multi_drone_system) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.017295] (multi_drone_system) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.017342] (multi_drone_system) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.017387] (multi_drone_system) StderrLine: {'line': b'\n'}
+[2.017431] (multi_drone_system) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.017481] (multi_drone_system) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.017525] (multi_drone_system) StderrLine: {'line': b'\n'}
+[2.017569] (multi_drone_system) StderrLine: {'line': b'!!\n'}
+[2.017615] (multi_drone_system) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.105417] (-) TimerEvent: {}
+[2.205670] (-) TimerEvent: {}
+[2.206193] (multi_drone_system) StdoutLine: {'line': b'running egg_info\n'}
+[2.222318] (multi_drone_system) StdoutLine: {'line': b'writing multi_drone_system.egg-info/PKG-INFO\n'}
+[2.222797] (multi_drone_system) StdoutLine: {'line': b'writing dependency_links to multi_drone_system.egg-info/dependency_links.txt\n'}
+[2.223045] (multi_drone_system) StdoutLine: {'line': b'writing entry points to multi_drone_system.egg-info/entry_points.txt\n'}
+[2.223214] (multi_drone_system) StdoutLine: {'line': b'writing requirements to multi_drone_system.egg-info/requires.txt\n'}
+[2.223275] (multi_drone_system) StdoutLine: {'line': b'writing top-level names to multi_drone_system.egg-info/top_level.txt\n'}
+[2.251381] (multi_drone_system) StdoutLine: {'line': b"reading manifest file 'multi_drone_system.egg-info/SOURCES.txt'\n"}
+[2.253534] (multi_drone_system) StdoutLine: {'line': b"writing manifest file 'multi_drone_system.egg-info/SOURCES.txt'\n"}
+[2.298861] (multi_drone_system) StdoutLine: {'line': b'running build_ext\n'}
+[2.303040] (multi_drone_system) StdoutLine: {'line': b'Creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/python3.10/site-packages/multi-drone-system.egg-link (link to .)\n'}
+[2.303787] (multi_drone_system) StdoutLine: {'line': b'Installing tf_visualizer script to /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/lib/multi_drone_system\n'}
+[2.304018] (multi_drone_system) StdoutLine: {'line': b'\n'}
+[2.304206] (multi_drone_system) StdoutLine: {'line': b'Installed /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system\n'}
+[2.304427] (multi_drone_system) StdoutLine: {'line': b'running symlink_data\n'}
+[2.305883] (-) TimerEvent: {}
+[2.306191] (multi_drone_system) StdoutLine: {'line': b'symbolically linking /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/launch/tf_viz.launch.py -> /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/launch\n'}
+[2.306482] (multi_drone_system) StdoutLine: {'line': b'creating /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/rviz\n'}
+[2.306674] (multi_drone_system) StdoutLine: {'line': b'symbolically linking /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/rviz/drone.rviz -> /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/rviz\n'}
+[2.306861] (multi_drone_system) StdoutLine: {'line': b'symbolically linking /home/jching/ros2_ws/src/multi_drone_system/build/multi_drone_system/rviz/multi_drone.rviz -> /home/jching/ros2_ws/src/multi_drone_system/install/multi_drone_system/share/multi_drone_system/rviz\n'}
+[2.332648] (multi_drone_system) CommandEnded: {'returncode': 0}
+[2.362612] (multi_drone_system) JobEnded: {'identifier': 'multi_drone_system', 'rc': 0}
+[2.363451] (-) EventReactorShutdown: {}
